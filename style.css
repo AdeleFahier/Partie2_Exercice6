@@ -1,0 +1,106 @@
+body{
+    font-size: 25px;
+    color: white;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#body{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.list {
+    padding: 10px;
+    /*border: rgb(204, 33, 33) solid 2px;*/
+    border-radius: 6px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+form{
+    /*border: black solid 2px;*/
+    margin-top: 0px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+#identite form{
+    background-color:rgba(11, 138, 138, 0.767);
+}
+#identite .list{
+    background-color:rgba(11, 138, 138, 0.966);
+}
+#adresse form{
+    background-color: rgba(67, 32, 122, 0.534);
+}
+#adresse .list{
+    background-color: rgba(66, 32, 122, 0.637);
+}
+#reglement form{
+    background-color:rgba(128, 33, 33, 0.596);
+}
+#reglement .list{
+    background-color:rgba(128, 33, 33, 0.787);
+}
+ul li{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.carte{
+    width: 40%;
+    /*border: rgb(180, 14, 14) solid 2px;*/
+    margin-bottom: 3px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(128, 33, 33, 0.787);
+}
+p{
+    margin-bottom: -2px;
+    /*border: green solid 2px;
+    background-color: blue;
+    color: white;*/
+    display: inline;
+    margin-left: 30px;
+    font-size: 25px;
+    padding: 10px 15px 0px 15px;
+    
+}
+#identite p{
+    background-color: rgba(11, 138, 138, 0.767);
+}
+#adresse p{
+    background-color: rgba(67, 32, 122, 0.534);
+}
+#reglement p{
+    background-color: rgba(128, 33, 33, 0.596);
+}
+#submit {
+  background-color: rgba(128, 33, 33, 0.109);
+  /*border: rgba(128, 33, 33) 10px double;*/
+  color: rgb(3, 3, 3);
+  border-radius: 8px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 25px;
+  margin-left: 42%;
+
+}
+#submit:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+::placeholder {
+    color: rgb(40, 40, 42);
+    font-size: 20px;
+  }

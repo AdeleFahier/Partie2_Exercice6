@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Exercice 6 : Formulaire</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="body">
+            <h1>Formulaire d'achat</h1>
+            <section id="identite">
+                <p>Votre identité</p>
+                <!--<div>-->
+                    <form>
+                        <ol>
+                            <li class="list"><label for="nom">Nom :</label><input id="nom" type="text" name="nom" placeholder="Votre nom"></li>
+                            <li class="list"><label for="prenom">Prénom :</label><input id="prenom" type="text" name="prenom" placeholder="Votre prénom"></li>
+                            <li class="list"><label for="mail">E-mail :</label><input id="mail" type="email" name="email" placeholder="Votre adresse e-mail"></li>
+                        </ol>
+                    </form>
+                <!--</div>-->
+            </section>
+            <section id="adresse">
+                <p>Adresse de livraison</p>
+                <!--<div>-->
+                    <form>
+                        <ol>
+                            <li class="list"><label for="home">Adresse :</label><textarea id="home" name="adresse" placeholder="Votre adresse postale" rows="6" cols="50"></textarea></li>
+                            <li class="list"><label for="codepostal">Code Postal :</label><input id="codepostal" type="text" name="codepostal" placeholder="Le Code Postal"></li>
+                            <li class="list"><label for="ville">Ville</label><input id="ville" type="text" name="ville" placeholder="Votre ville"></li>
+                        </ol>
+                    </form>
+                <!--</div>-->
+            </section>
+             <section id="reglement">
+                <p>Information de réglement</p>
+                <div>
+                    <form>
+                        <ol>
+                            <li class="carte">Type de carte bancaire :
+                                <ul>
+                                    <li><input type="radio" id="visa" name="typecarte" value="visa"><label for="visa">VISA</label></li>
+                                    <li><input type="radio" id="Mastercard" Name="typecarte" value="mastercard"><label for="Mastercard">Mastercard</label></li>
+                                </ul>
+                            </li>
+                            <li class="list"><label for="numerocarte">Numéro de carte :</label><input type="text" id="numerocarte" name="numerocarte" placeholder="Votre code de 16 chiffres"></li>
+                            <li class="list"><label for="code">Clé de sécurité :</label><input type="password" id="code" name="code" placeholder="Votre clé à 3 chiffres"></li>
+                            <li class="list"><label for="nom_carte_titulaire">Nom Titulaire de la carte :</label><input type="text" id="nom_carte_titulaire" name="nom_carte_titulaire" placeholder="Nom du titulaire"></li>
+                        </ol>
+                    </form>
+                </div>
+             </section>
+             <input id="submit" type="submit" name="submit" value="J'achète !">
+        </div>
+    </body>
+</html>
